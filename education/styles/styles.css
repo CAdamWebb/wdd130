@@ -1,0 +1,33 @@
+header {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    color: white;
+}
+.gospel {
+    width: 50%;
+    margin: 0 auto;
+}
+.photo {
+    text-align: center;
+}
+.nelson {
+    width: 30%
+}
+.quote {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+}
+footer {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+body {
+    background-color: pink;
+}
+header h1:hover {
+    color: black;
+}
