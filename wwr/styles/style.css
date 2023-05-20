@@ -2,13 +2,36 @@
     max-width: 1600px;
     margin: 0 auto;
 }
+header {
+    background-color: #113e13;
+    padding: 15px;
+}
+.logo {
+    width: 80px;
+    padding: 20px;
+}
 nav a {
     text-align: center;
-    color: #d2eedb;
+    color: white;
     text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+nav a:hover {
+    background-color: #0a2b0b;
+}
+#hero-img {
+    width: 100%;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
+    font-size: 3em;
+}
+#hero-msg h4 {
+    font-size: 1.5em;
+}
+#hero-msg h1{
+    font-family: 'Courier New', Courier, monospace;
 }
 .button-box {
     text-align: center;
@@ -16,37 +39,53 @@ nav a {
 main section {
     text-align: center;
 }
+main section h2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+.home-grid {
+    margin: 10px;
+}
+.card-img {
+    border: 10px solid #113e13;
+    border-radius: 10px;
+}
 #background {
     height: 725px;
 }
 body {
-    background-color: #6c9d5d; 
-}
-header {
-    background-color:rgba(20,30,13, .7);
-}
-nav a:hover {
-    background-color: rgb(6, 44, 12);
-    color: #ffffff;
-}
-#hero-img {
-    width: 100%;
-}
-.logo {
-    width: 80px;
+    background-color: #6c9d5d;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .icon {
     width: 80px;
 }
 .book, .join {
     text-decoration: none;
+    border-radius: 5px;
+    background-color: #113e13;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+}
+.book:hover, .join:hover {
+    background-color: #0a2b0b;
+}
+.msg {
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer a {
     text-decoration: none;
 }
 footer p {
     font-size: 1.2em;
+    padding: 25px 50px;
 }
 footer p a:hover {
     text-decoration: underline;
+}
+.social {
+    padding: 35px;
 }
