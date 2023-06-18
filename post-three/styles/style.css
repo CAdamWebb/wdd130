@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+.hero {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.weeks {
+    margin-top: 30px;
+    color: #5057a6;
+}
+h1 {
+    font-size: 3em;
+    margin-top: 0;
+}
+.article {
+    margin: 10%;
+    color: gray;
+    font-size: 1.5em;
+}
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #5057a6;
+    color: white;
+}
+h2 {
+    line-height: 0;
+}
+.read, .views, .comments {
+    line-height: 0;
+    margin: 40px;
+}
