@@ -16,7 +16,6 @@ header {
     display: grid;
     grid-template-columns: 150px auto;
     background-color: var(--color-2);
-    //opacity: .9;
 }
 .logo {
     width: 80px;
