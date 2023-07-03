@@ -31,3 +31,11 @@ header a:hover {
     color: white;
     background-color: var(--color1);
 }
+.link-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+.link-grid img {
+    width: 300px;
+}
