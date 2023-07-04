@@ -31,6 +31,9 @@ header a:hover {
     color: white;
     background-color: var(--color1);
 }
+.banner img {
+    width: 100%;
+}
 .link-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
