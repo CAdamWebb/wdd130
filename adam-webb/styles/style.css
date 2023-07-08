@@ -81,6 +81,29 @@ header a:nth-of-type(1n+2):hover {
 .wwr {
     grid-column: 6/7;
 }
+
+.game-content img {
+    width: 40%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 3px solid var(--color3);
+}
+.game-content img:first-of-type {
+    margin-left: 40%;
+}
+.game-content p {
+    background-color: var(--color2);
+    color: var(--color4);
+    font-size: 1.2em;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 30px;
+    border: 3px solid var(--color3);
+    border-radius: 5px;
+}
+
+
+
 footer {
     display: grid;
     background-color: var(--color2);
